@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	margin: 0;
+}
+.box{
+	width: 100%;
+	height: auto;
+	background: #333;
+}
+@width:100%;
+@height:100px;
+@bg:background;
+nav{
+	width: @width;
+	height:@height;
+	border-bottom: 1px solid #666;
+	.nav-logo{
+		width: 80%;
+		height: @height;
+		margin: 0 auto;
+		.nav-img{
+			width: 15%;
+			height: @height;
+			float: left;
+			line-height: @height;
+			img{
+				width: 82px;
+				height: 50px;
+				vertical-align: middle;
+			}
+		}
+		.nav-bar{
+			width: 85%;
+			height: @height;
+			float: left;
+			
+			ul{
+				width: 100%;
+				height: @height;
+				li{
+					float: right;
+					width: 82px;
+					height: 29px;
+					
+					a{
+						display: block;
+						text-align: center;
+						line-height: @height;
+						color: #fff;
+						font-size: 17px;
+					}
+				}
+				li.home{
+					a{
+						color: #ffd039;
+					}
+				}
+			}
+		}
+		&::after{
+			content: "";
+			clear: both;
+			display: block;
+		}
+		.navigation-bar{
+			position: absolute;
+			.dainji{
+				font-weight: 900;
+				font-size: 20px;
+				color: #fff;
+				line-height: 100px;
+				display: none;
+			}
+			
+		}
+	}
+	.bar-chart{
+		position: fixed;
+		top: 0;
+		left: -300px;
+		width: 300px;
+		height: 100%;
+		z-index: 1000;
+		background: #000;
+		transition: all .5s linear;
+		ul{
+			width: 300px;
+			height: 100%;
+			li{
+				width: 240px;
+				padding: 13px 0;
+				margin: 0 auto;
+				a{
+					display: block;
+					color: #fff;
+					font-size: 20px;
+					font-weight: 700px;
+				}
+			}
+		}
+	}
+}
+header{
+	width: 100%;
+	height: auto;
+	
+	.aixngmu{
+		width: 100%;
+		height: 247px;
+		background: url(../imgs/29.jpg) no-repeat 80% 73%;
+		.yans{
+			width: 100%;
+			height: 100%;
+			background: rgba(1,1,1,.4);
+			position: relative;
+			h1{
+				
+				color: #fff;
+				position: absolute;
+				top: 50%;
+				margin-top: -15px;
+				left: 70px;
+			}
+		}
+	}
+}
+main{
+	width: 100%;
+	height: 1543px;
+	padding-top: 50px;
+	.youguod{
+		width: 90%;
+		height: 100%;
+		margin: 0 auto;
+		ul{
+			width: 100%;
+			li{
+				width: 100%;
+				height: 254px;
+				background: #000;
+				padding-bottom: 22px;
+				margin-bottom: 22px;
+				overflow: hidden;
+				transition: all 1s ease;
+				&:hover{
+					transform: translateY(-15px);
+				}
+				.diyig{
+					img{
+						// width: 100%;
+						// height: 100%;
+					}
+				}
+				.dierg{
+					h2{
+						margin-top: 40px;
+						color: #fff;
+						margin-bottom: 5px;
+						padding: 0 40px;
+					}
+					div{
+						height: 20px;
+					}
+					p{
+						padding: 0 40px;
+						height: auto;
+						color: #F4F4F4;
+					}
+				}
+				&::after{
+					content: "";
+					clear: both;
+					display: block;
+				}
+			}
+		}
+	}
+}

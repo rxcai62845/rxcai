@@ -1,0 +1,54 @@
+@media screen and (max-width: 1100px) {
+	nav .nav-logo{
+		width: 90%;
+	}
+
+}
+@media screen and (max-width:992px){
+	/* nav{
+		position: fixed;
+		background: #000000;
+	} */
+	nav .nav-logo .navigation-bar .dainji{
+		display: block;
+	}
+	nav .nav-logo .nav-img {
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+	}
+	nav .nav-logo .nav-bar{
+		display: none;
+	}
+	/* .box{
+		overflow: hidden;
+	}
+	header{
+		margin-top: 100px;
+	} */
+	header .aixngmu{
+		height: 107px;
+	}
+	header .aixngmu .yans h1{
+		left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	main .youguod ul li .diyig{
+		display: none;
+	}
+	main .youguod ul li .dierg{
+		margin-top: 50px;
+	}
+	iframe{
+		height: 59px;
+	}
+}
+@media screen and (max-width:692px){
+	main{
+		height: auto;
+	}
+	main .youguod ul li{
+		height: auto;
+	}
+}

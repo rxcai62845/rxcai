@@ -1,0 +1,42 @@
+@media screen and (max-width: 1100px) {
+	nav .nav-logo{
+		width: 90%;
+	}
+}
+@media screen and (max-width:992px){
+	/* nav{
+		position: fixed;
+		background: #000000;
+	} */
+	nav .nav-logo .navigation-bar .dainji{
+		display: block;
+	}
+	nav .nav-logo .nav-img {
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+	}
+	nav .nav-logo .nav-bar{
+		display: none;
+	}
+	/* .box{
+		overflow: hidden;
+	}
+	header{
+		margin-top: 100px;
+	} */
+	header .aixngmu{
+		height: 107px;
+	}
+	header .aixngmu .yans h1{
+		left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	main .main-mode .mode div{
+		padding: 0;
+	}
+	iframe{
+		height: 59px;
+	}
+}

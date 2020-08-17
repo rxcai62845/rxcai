@@ -1,0 +1,52 @@
+@media screen and (max-width: 1100px) {
+	nav .nav-logo{
+		width: 90%;
+	}
+
+}
+@media screen and (max-width:832px){
+	/* nav{
+		position: fixed;
+		background: #000000;
+	} */
+	nav .nav-logo .navigation-bar .dainji{
+		display: block;
+	}
+	nav .nav-logo .nav-img {
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+	}
+	nav .nav-logo .nav-bar{
+		display: none;
+	}
+	/* .box{
+		overflow: hidden;
+	}
+	header{
+		margin-top: 100px;
+	} */
+	header .aixngmu{
+		height: 107px;
+	}
+	header .aixngmu .yans h1{
+		left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	main .duogetu{
+		height: auto;
+	}
+	main .duogetu ul li{
+		width: 100%;
+		background: #000;
+		margin: 10px 0;
+	}
+	main .duogetu ul li img{
+		width: 88%;
+	}
+	iframe{
+		width: 100%;
+		height: 59px;
+	}
+}

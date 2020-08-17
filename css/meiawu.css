@@ -1,0 +1,88 @@
+@media screen and (max-width: 1300px) {
+	main{
+		height: 1700px;
+	}
+
+}
+@media screen and (max-width: 1100px) {
+	/* nav{
+		position: fixed;
+		background: #000000;
+	} */
+	nav .nav-logo{
+		width: 90%;
+	}
+	main{
+		height: 1700px;
+	}
+
+}
+@media screen and (max-width:992px){
+	nav .nav-logo .navigation-bar .dainji{
+		display: block;
+	}
+	nav .nav-logo .nav-img {
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+	}
+	nav .nav-logo .nav-bar{
+		display: none;
+	}
+	/* .box{
+		overflow: hidden;
+	}
+	header{
+		margin-top: 100px;
+	} */
+	header .aixngmu{
+		height: 107px;
+	}
+	header .aixngmu .yans h1{
+		left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	main{
+		height: auto;
+	}
+	main .yanchong{
+		padding-top: 40px;
+	}
+	main .yanchong .top-shang p{
+		margin-top: 0px;
+	}
+	main .yiglbt ul li img{
+		padding: 20px;
+	}
+	iframe{
+		height: 59px;
+	}
+}
+@media screen and (max-width: 767px){
+	main .zaiycde ul li div h1{
+		font-size: 25px;
+	}
+}
+@media screen and (min-width: 250px) and (max-width: 567px){
+	main .zaiycde ul li img{
+		width: 100%;
+		
+	}
+	main .zaiycde ul li div h1{
+		font-size: 20px;
+	}
+	main .zaiycde ul li div p{
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 250px){
+	main .zaiycde ul li img{
+		width: 33.4px;
+		height: 33.4px;
+	}
+	main .zaiycde ul li div h1{
+		font-size: 16px;
+	}
+	
+}

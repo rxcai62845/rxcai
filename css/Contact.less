@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	margin: 0;
+}
+.box{
+	width: 100%;
+	height: auto;
+	background: #333;
+}
+@width:100%;
+@height:100px;
+@bg:background;
+nav{
+	width: @width;
+	height:@height;
+	border-bottom: 1px solid #666;
+	.nav-logo{
+		width: 80%;
+		height: @height;
+		margin: 0 auto;
+		.nav-img{
+			width: 15%;
+			height: @height;
+			float: left;
+			line-height: @height;
+			img{
+				width: 82px;
+				height: 50px;
+				vertical-align: middle;
+			}
+		}
+		.nav-bar{
+			width: 85%;
+			height: @height;
+			float: left;
+			
+			ul{
+				width: 100%;
+				height: @height;
+				li{
+					float: right;
+					width: 82px;
+					height: 29px;
+					a{
+						display: block;
+						text-align: center;
+						line-height: @height;
+						color: #fff;
+						font-size: 17px;
+					}
+				}
+				li.home{
+					a{
+						color: #ffd039;
+					}
+				}
+			}
+		}
+		&::after{
+			content: "";
+			clear: both;
+			display: block;
+		}
+		.navigation-bar{
+			position: absolute;
+			.dainji{
+				font-weight: 900;
+				font-size: 20px;
+				color: #fff;
+				line-height: 100px;
+				display: none;
+			}
+			
+		}
+	}
+	.bar-chart{
+		position: fixed !important;
+		top: 0;
+		left: -300px;
+		width: 300px;
+		height: 100%;
+		
+		background: #000;
+		transition: all .5s linear;
+		ul{
+			width: 300px;
+			height: 100%;
+			li{
+				width: 240px;
+				padding: 13px 0;
+				margin: 0 auto;
+				a{
+					display: block;
+					color: #fff;
+					font-size: 20px;
+					font-weight: 700px;
+				}
+			}
+		}
+	}
+}
+header{
+	width: 100%;
+	height: auto;
+	.aixngmu{
+		width: 100%;
+		height: 247px;
+		background: url(../imgs/51.jpg) no-repeat 80% 73%;
+		.yans{
+			width: 100%;
+			height: 100%;
+			background: rgba(1,1,1,.4);
+			position: relative;
+			h1{
+				
+				color: #fff;
+				position: absolute;
+				top: 50%;
+				margin-top: -15px;
+				left: 70px;
+			}
+		}
+	}
+}
+main{
+	width: 100%;
+	height: auto;
+	.main-mode{
+		width: 100%;
+		height: 462px;
+		.mode{
+			width: 90%;
+			margin: 0 auto;
+			position: relative;
+			top: 130px;
+			div{
+				height: 202px;
+				.hezi{
+					width: 100%;
+					background: #ffd03a;
+					.txtu{
+						height: 90px;
+						img{
+							position: relative;
+							top: 30px;
+							left: 50%;
+							margin-left: -22.5px;
+						}
+					}
+					.wenzhi{
+						width: 100%;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	.biaod{
+		width: 100%;
+		height: 948px;
+		margin: 0;
+		background: url(../imgs/55.jpg);
+		.zhixu{
+			
+			height: 643px;
+			background: url(../imgs/56.jpg) no-repeat ~'100% / 100%' 100%;
+			margin: 0 auto;
+			position: relative;
+			top: 15%;
+			border-bottom: 3px solid #FFA500;
+			div{
+				width: 90%;
+				margin: 0 auto;
+				h3{
+					text-align: center;
+					color: #fff;
+					padding: 50px 0px 20px 0px;
+				}
+				.p{
+					color: #CCCCCC;
+					margin: 0;
+				}
+				.xingm{
+					width: 100%;
+					margin: 0px;
+					margin-bottom: 20px;
+					p{
+						.p();
+					}
+					input{
+						border-radius: 0px;
+						width: 100%;
+						padding: 10px 0;
+						box-sizing: border-box;
+						background-color: rgba(133, 128, 125, 0.6) !important;
+						border: 0px;
+						outline:none;
+					}
+				}
+				.neirong{
+					margin: 0px;
+					width: 100%;
+					p{
+						.p();
+					}
+					textarea{
+						width: 100%;
+					}
+				}
+				button{
+					width: 100%;
+					height: 50px;
+					background: #FFA500;
+					border: 0px;
+					outline: none;
+					margin-top: 30px;
+				}
+			}
+			
+		}
+		
+	}
+}

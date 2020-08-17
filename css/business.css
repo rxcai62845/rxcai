@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  margin: 0;
+}
+.box {
+  width: 100%;
+  height: auto;
+  background: #333;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #666;
+}
+nav .nav-logo {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+}
+nav .nav-logo .nav-img {
+  width: 15%;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+}
+nav .nav-logo .nav-img img {
+  width: 82px;
+  height: 50px;
+  vertical-align: middle;
+}
+nav .nav-logo .nav-bar {
+  width: 85%;
+  height: 100px;
+  float: left;
+}
+nav .nav-logo .nav-bar ul {
+  width: 100%;
+  height: 100px;
+}
+nav .nav-logo .nav-bar ul li {
+  float: right;
+  width: 82px;
+  height: 29px;
+}
+nav .nav-logo .nav-bar ul li a {
+  display: block;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 17px;
+}
+nav .nav-logo .nav-bar ul li.home a {
+  color: #ffd039;
+}
+nav .nav-logo::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+nav .nav-logo .navigation-bar {
+  position: absolute;
+}
+nav .nav-logo .navigation-bar .dainji {
+  font-weight: 900;
+  font-size: 20px;
+  color: #fff;
+  line-height: 100px;
+  display: none;
+}
+nav .bar-chart {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background: #000;
+  transition: all 0.5s linear;
+}
+nav .bar-chart ul {
+  width: 300px;
+  height: 100%;
+}
+nav .bar-chart ul li {
+  width: 240px;
+  padding: 13px 0;
+  margin: 0 auto;
+}
+nav .bar-chart ul li a {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700px;
+}
+header {
+  width: 100%;
+}
+header .header-tup {
+  width: 100%;
+  background: url(../imgs/14.jpg) no-repeat 100% 100%/100% 100%;
+}
+header .header-tup::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+header .header-tup div {
+  width: 100%;
+  height: 247px;
+  background: rgba(1, 1, 1, 0.4);
+  overflow: hidden;
+}
+header .header-tup div h1 {
+  margin: 0px;
+  color: #fff;
+  margin-top: 105px;
+  margin-left: 50px;
+}
+header .zhiti {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0px 20px 0px;
+}
+header .zhiti p {
+  color: #eee;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+main {
+  width: 100%;
+  height: auto;
+}
+main .diyig {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  height: 870px;
+}
+main .diyig .left-diyi img {
+  width: 100%;
+}
+main .diyig .left-diyi div {
+  width: 100%;
+  background: #FFD039;
+  padding: 20px 0;
+}
+main .diyig .left-diyi div h2 {
+  margin: 0;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+main .diyig .left-diyi div p {
+  margin-left: 40px;
+}
+main .diyig .right-diyi div {
+  width: 100%;
+}
+main .diyig .right-diyi div img {
+  width: 100%;
+}
+main .diyig .right-diyi div div {
+  background: #FFD039;
+  padding: 20px 0;
+}
+main .diyig .right-diyi div div h2 {
+  color: #111;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+main .diyig .right-diyi div div p {
+  color: #111;
+  margin-left: 40px;
+}
+main .diyig .right-diyi .diyx {
+  margin-bottom: 21px;
+}
+main .dierg {
+  width: 90%;
+  height: 870px;
+  margin: 0 auto;
+}
+main .dierg .left-diyi div {
+  width: 100%;
+}
+main .dierg .left-diyi div img {
+  width: 100%;
+}
+main .dierg .left-diyi div div {
+  background: #FFD039;
+  padding: 20px 0;
+}
+main .dierg .left-diyi div div h2 {
+  color: #111;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+main .dierg .left-diyi div div p {
+  color: #111;
+  margin-left: 40px;
+}
+main .dierg .rigth-diyi img {
+  width: 100%;
+}
+main .dierg .rigth-diyi div {
+  width: 100%;
+  background: #FFD039;
+  padding: 20px 0;
+}
+main .dierg .rigth-diyi div h2 {
+  margin: 0;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+main .dierg .rigth-diyi div p {
+  margin-left: 40px;
+}

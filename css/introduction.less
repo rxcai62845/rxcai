@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	margin: 0;
+}
+.box{
+	width: 100%;
+	height: auto;
+	background: #333;
+}
+@width:100%;
+@height:100px;
+@bg:background;
+nav{
+	width: @width;
+	height:@height;
+	border-bottom: 1px solid #666;
+	.nav-logo{
+		width: 80%;
+		height: @height;
+		margin: 0 auto;
+		.nav-img{
+			width: 15%;
+			height: @height;
+			float: left;
+			line-height: @height;
+			img{
+				width: 82px;
+				height: 50px;
+				vertical-align: middle;
+			}
+		}
+		.nav-bar{
+			width: 85%;
+			height: @height;
+			float: left;
+			
+			ul{
+				width: 100%;
+				height: @height;
+				li{
+					float: right;
+					width: 82px;
+					height: 29px;
+					a{
+						display: block;
+						text-align: center;
+						line-height: @height;
+						color: #fff;
+						font-size: 17px;
+					}
+				}
+				li.home{
+					a{
+						color: #ffd039;
+					}
+				}
+			}
+		}
+		&::after{
+			content: "";
+			clear: both;
+			display: block;
+		}
+		.navigation-bar{
+			position: absolute;
+			.dainji{
+				font-weight: 900;
+				font-size: 20px;
+				color: #fff;
+				line-height: 100px;
+				display: none;
+			}
+			
+		}
+	}
+	.bar-chart{
+		position: fixed;
+		top: 0;
+		left: -300px;
+		width: 300px;
+		height: 100%;
+		z-index: 1000;
+		background: #000;
+		transition: all .5s linear;
+		ul{
+			width: 300px;
+			height: 100%;
+			li{
+				width: 240px;
+				padding: 13px 0;
+				margin: 0 auto;
+				a{
+					display: block;
+					color: #fff;
+					font-size: 20px;
+					font-weight: 700px;
+				}
+			}
+		}
+	}
+}
+header{
+	width: 100%;
+	height: auto;
+	.aixngmu{
+		width: 100%;
+		height: 247px;
+		background: url(../imgs/35.jpg) no-repeat 80% 73%;
+		.yans{
+			width: 100%;
+			height: 100%;
+			background: rgba(1,1,1,.4);
+			position: relative;
+			h1{
+				
+				color: #fff;
+				position: absolute;
+				top: 50%;
+				margin-top: -15px;
+				left: 70px;
+			}
+		}
+	}
+}
+main{
+	width: 100%;
+	height: 1900px;
+	.yanchong{
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 100px;
+		.top-shang{
+			p{
+				padding: 0 40px;
+				color: #F1F3F8;
+				margin-top: 70px;
+				line-height: 30px;
+				letter-spacing: 1px;
+			}
+		}
+		.bottom-xia{
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		div{
+			padding: 5px;
+		}
+	}
+	.zaiycde{
+		width: 100%;
+		background: #000000;
+		height: auto;
+		overflow: hidden;
+		ul{
+			width: 80%;
+			height: auto;
+			height: auto;
+			margin: 0 auto;
+			li{
+				margin-bottom: 100px;
+				margin-top: 100px;
+				img{
+					display: block;
+					margin: 0 auto;
+				}
+				div{
+					width: 100%;
+					.h2{
+						text-align: center;
+						color: #fff;
+					}
+					h1{
+						.h2();
+					}
+					p{
+						.h2();
+					}
+				}
+			}
+			
+		}
+	}
+	.guiding{
+		width: 100%;
+		height: 439px;
+		background: url('../imgs/5.png') no-repeat 100% ~'100% / 100%' 100%;
+		position: relative;
+		.guiz{
+			text-align: center;
+			position: absolute;
+			left: 50%;
+		}
+		h2{
+			.guiz();
+			width: 360px;
+			height: 118px;
+			font-size: 40px;
+			top: 90px;
+			margin-left: -180px;
+			
+		}
+		div{
+			.guiz();
+			width: 188px;
+			height: 60px;
+			background: #111;
+			color: orange;
+			line-height: 60px;
+			margin-left: -94px;
+			top: 250px;
+		}
+	}
+	.yiglbt{
+		width: 100%;
+		margin-top: 100px;
+		ul{
+			width: 90%;
+			height: auto;
+			margin: 0 auto;
+			li{
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+}

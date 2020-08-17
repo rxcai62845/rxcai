@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+footer .touyg {
+  width: 100%;
+  height: 207px;
+  background: #000;
+}
+footer .touyg ul {
+  width: 90%;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+footer .touyg ul .p1 {
+  color: #eee;
+}
+footer .touyg ul li {
+  height: 100%;
+  text-align: center;
+}
+footer .touyg ul li img {
+  padding-bottom: 30px;
+}
+footer .touyg ul li p {
+  color: #eee;
+}
+footer .touyg ul li h2 {
+  color: #eee;
+}
+footer .weibul {
+  width: 100%;
+  height: 59px;
+  background: #111;
+}
+footer .weibul ul {
+  width: 78%;
+  margin: 0 auto;
+}
+footer .weibul ul li {
+  color: #eee;
+  line-height: 59px;
+}
+@media screen and (max-width: 972px) {
+  footer .touyg {
+    display: none;
+  }
+}

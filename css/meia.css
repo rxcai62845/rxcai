@@ -1,0 +1,129 @@
+@media screen and (max-width: 1100px) {
+	nav .nav-logo{
+		width: 90%;
+	}
+	header .header-engineering{
+		top: 550px;
+	}
+}
+@media screen and (max-width:992px){
+	/* nav{
+		position: fixed;
+		background: #000000;
+	} */
+	nav .nav-logo .navigation-bar .dainji{
+		display: block;
+	}
+	header{
+		height: 400px;
+	}
+	header .header-bg{
+		height: 100%;
+	}
+	header .header-suoy{
+		top: 150px;
+	}
+	header .header-suoy .header-notes{
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+	nav .nav-logo .nav-img {
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+	}
+	nav .nav-logo .nav-bar{
+		display: none;
+	}
+	main .main-business{
+		height: 449px;
+	}
+	main .main-business .neirong{
+		height: auto;
+	}
+	main .lunboyx .kongxi .tup{
+		padding-bottom: 50px;
+	}
+	main .jiushh{
+		height: 1900px;
+	}
+	main .jiushh .zaiyc{
+		height: 1650px;
+	}
+	main .jiushh .zaiyc ul li{
+		height: 470px;
+	}
+	main .jiushh .zaiyc ul li img{
+		width: 100%;
+		height: 280px;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	main .jiushh .zaiyc .xiangmu{
+		bottom: 0;
+	}
+	main .gosjij .zhongjian{
+		margin: 20px auto;
+	}
+	main .gosjij .zhongjian .tupx{
+		padding-bottom: 15px;
+	}
+	main .gosjij .zhongjian .wenzi h2{
+		text-align: left;
+	}
+	iframe{
+		height: 59px;
+	}
+}
+@media screen and (max-width: 767px){
+	main .main-business{
+		height: 469px;
+	}
+	main .zaiycde ul li div h1{
+		font-size: 25px;
+	}
+	main .main-business .neirong{
+		width: 96%;
+	}
+	main .main-business .neirong ul li{
+		padding: 0 5px;
+		
+	}
+	main .main-business .neirong ul li div{
+		height: 134px;
+	}
+	main .main-business .neirong ul li div div{
+		margin-top: 35px;
+	}
+	main .jiushh .zaiyc ul li{
+		margin: 0;
+	}
+	main .jiushh .zaiyc ul li img{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+}
+@media screen and (min-width: 250px) and (max-width: 567px){
+	main .zaiycde ul li img{
+		width: 100%;
+		
+	}
+	main .zaiycde ul li div h1{
+		font-size: 20px;
+	}
+	main .zaiycde ul li div p{
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 250px){
+	main .zaiycde ul li img{
+		width: 33.4px;
+		height: 33.4px;
+	}
+	main .zaiycde ul li div h1{
+		font-size: 16px;
+	}
+}
